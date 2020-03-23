@@ -1,0 +1,19 @@
+<template>
+  <v-app-bar
+    app
+    color="white"
+    height="100"
+  >
+    <v-avatar
+      tile
+      class="mr-3"
+      size="70"
+    >
+      <v-img
+        contain
+        max-height="100%"
+        :src="require('@/assets/images/logo_150_ppi.png')"
+      />
+    </v-avatar>
+  </v-app-bar>
+</template>
