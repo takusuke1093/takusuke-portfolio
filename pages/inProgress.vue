@@ -1,7 +1,7 @@
 <template>
   <v-layout>
     <v-card class="mx-auto yellow darken-2">
-      <v-card-title color="yellow darken-2">
+      <v-card-title>
         Sorry!
       </v-card-title>
       <v-card-text>   There might be a page once I start building Blogs</v-card-text>
