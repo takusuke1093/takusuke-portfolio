@@ -1,5 +1,6 @@
 <template>
-  <v-app dark>
+  <v-app light>
+    <profile-Header />
     <nuxt />
     <profile-footer />
   </v-app>
@@ -8,7 +9,8 @@
 <script>
 export default {
   components: {
-    profileFooter: () => import('~/components/footer')
+    profileFooter: () => import('~/components/footer'),
+    profileHeader: () => import('~/components/header')
   },
   data () {
     return {
