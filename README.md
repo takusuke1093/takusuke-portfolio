@@ -1,6 +1,10 @@
 # takusuke-portfolio
 
-> portfolio
+> Portofolio resume. Built sample responsive website with Nuxt.js, vue.js and vuetify.js.
+
+## URL
+
+https://takusuke1093-portfolio.firebaseapp.com
 
 ## Build Setup
 
