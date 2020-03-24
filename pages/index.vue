@@ -18,11 +18,11 @@
                   <v-col
                     class="white--text text-center pl-0"
                     cols="12"
-                    tag="h2"
+                    tag="h1"
                   >
                     <span
                       :class="[$vuetify.breakpoint.mdAndDown ? 'display-2': 'display-4']"
-                      class="font-weight-black text-center"
+                      class="font-weight-black"
                     >
                       @takusuke1093
                     </span>
