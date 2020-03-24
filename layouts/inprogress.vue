@@ -1,7 +1,11 @@
 <template>
   <v-app light>
     <profile-Header />
-    <nuxt />
+    <v-content>
+      <v-container>
+        <nuxt />
+      </v-container>
+    </v-content>
     <profile-footer />
   </v-app>
 </template>
