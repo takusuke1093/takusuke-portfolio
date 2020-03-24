@@ -16,13 +16,13 @@
                   justify="center"
                 >
                   <v-col
-                    class="white--text text-center"
+                    class="white--text text-center pl-0"
                     cols="12"
-                    tag="h1"
+                    tag="h2"
                   >
                     <span
-                      :class="[$vuetify.breakpoint.smAndDown ? 'display-1': 'display-3']"
-                      class="font-weight-black"
+                      :class="[$vuetify.breakpoint.mdAndDown ? 'display-2': 'display-4']"
+                      class="font-weight-black text-center"
                     >
                       @takusuke1093
                     </span>
