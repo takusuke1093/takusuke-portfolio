@@ -259,12 +259,12 @@ export default {
           text: 'Guess What? I got offered a summer internship  as a React.js front-end engineer! It surprised me a lot because I could not implement...'
         },
         {
-          src: 'summer.jpg',
+          src: 'summary.jpg',
           title: 'Summary of my career',
           text: 'I was seriously thinking my future career should be related to Japanese-Chinese-English translator until graduation from junior high...'
         },
         {
-          src: 'summer.jpg',
+          src: 'book.jpg',
           title: 'until aiming to become Engineer',
           text: 'I would try if I could talk to my past self about what I do now. He won’t believe even half of what I tell him. My surrounding has extremely changed for the past two years…'
         }
