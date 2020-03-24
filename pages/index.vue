@@ -65,7 +65,7 @@
             max-width="720"
           >
             @takusuke1093<br>
-            Frontend Web Developer<br>
+            Front-end Web Developer<br>
             Student at Tokyo University of Science
           </v-responsive>
 
@@ -215,7 +215,7 @@
               md="4"
             >
               <v-img
-                :src="src"
+                :src="require(`@/assets/images/${src}`)"
                 class="mb-4"
                 height="275"
                 max-width="100%"
@@ -254,41 +254,41 @@ export default {
     return {
       articles: [
         {
-          src: 'https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
-          title: '初のインターンにいってきた！',
-          text: 'なんとかサマーインターンの選考に通ることができ，サマーインターンに参加してきました！　自分以外はほぼ国立大生という学歴コンプレックスを発揮しそうな環境で週…'
+          src: 'summer.jpg',
+          title: 'My first Internship!',
+          text: 'Guess What? I got offered a summer internship  as a React.js front-end engineer! It surprised me a lot because I could not implement...'
         },
         {
-          src: 'https://images.unsplash.com/photo-1475938476802-32a7e851dad1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80',
-          title: '経歴まとめてみた',
-          text: '中学高校までは英語と中国語で仕事してやるぞと意気込んでおりました．中国と日本のハーフ（最近はミックスという）として生まれたメリットを最大限生かそうとしてた…'
+          src: 'summer.jpg',
+          title: 'Summary of my career',
+          text: 'I was seriously thinking my future career should be related to Japanese-Chinese-English translator until graduation from junior high...'
         },
         {
-          src: 'https://images.unsplash.com/photo-1416339442236-8ceb164046f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1892&q=80',
-          title: 'エンジニアになるまで',
-          text: '高校の専攻と異なりWeb系の企業で実務をさせていただく日々を送っていること，2年前の自分は全く想像していないだろうと思います．人それぞれきっかけは様々だと思い…'
+          src: 'summer.jpg',
+          title: 'until aiming to become Engineer',
+          text: 'I would try if I could talk to my past self about what I do now. He won’t believe even half of what I tell him. My surrounding has extremely changed for the past two years…'
         }
       ],
       features: [
         {
           icon: 'mdi-vuejs',
           title: 'Vue.js',
-          text: 'Engaged in creating Vue.js Admin Dashboards project as an internship for 3months+. Introduced vuex, vue-router and Vuesax collaborating Rails API with Axios. Created responsive profile page with Nuxt.js and Vuetify.js as a private project'
+          text: 'Engaged in creating Vue.js Admin Dashboards project as an internship for 3months+. Introduced vuex, vue-router and Vuesax collaborating Rails API with Axios. Created responsive profile page with Nuxt.js and Vuetify.js as a private project.'
         },
         {
           icon: 'mdi-language-ruby-on-rails',
           title: 'Ruby on Rails',
-          text: 'Created API for Admin Dashboards project as an internship for 1m+. Implemented some functions like Rspec, fixtures, session, preventing CSRF attacks. Introduced some features with rails gems like ransack, kaminari. Creaetd simple CRUD app as a private project'
+          text: 'Created API for Admin Dashboards project as an internship for 1m+. Implemented some functions like Rspec, fixtures, session, preventing CSRF attacks. Introduced some features with rails gems like Ransack, Kaminari. Creatd simple CRUD app as a private project.'
         },
         {
           icon: 'mdi-account-voice',
           title: 'Consulting skills',
-          text: '2y+ experiences as a consultant at a electrical appliance store. Belonged to information solutions devision. Troubleshot 100+ bugs and concerns on PC and Broadband-internet-related. Ranked top number of sales of PC’s In the metropolitan area in FY2018/3'
+          text: '2y+ experiences as a consultant at an electrical appliance store. Belonged to information solutions division. Troubleshot 100+ bugs and concerns on PC and Broadband-internet-related. Ranked top number of sales of PC’s In the metropolitan area in FY2018/3.'
         }
       ],
       stats: [
         ['JP', 'Nationality'],
-        ['2y+', 'Overseas life'],
+        ['2y', 'Overseas life'],
         ['3', 'languages'],
         ['10+', 'Blogs']
       ],

@@ -33,7 +33,7 @@ export default {
   data () {
     return {
       pageNotFound: '404 Not Found',
-      otherError: 'Sorry! There might be a page once I start building this Blogs'
+      otherError: 'Sorry! Something went wrong...'
     }
   },
   head () {
