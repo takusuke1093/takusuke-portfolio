@@ -30,8 +30,8 @@
       <v-divider />
 
       <v-card-text class="white--text">
-        Copyright (c) 2020 Takumi Yoshida
-        Released under the MIT license
+        Copyright (c) 2020 takusuke1093
+        Released under the MIT license. For more details, see <a href="https://github.com/takusuke1093/takusuke-portfolio/blob/master/MITLicense.txt" class="white--text"><u>MITLicense.txt</u></a>
       </v-card-text>
     </v-card>
   </v-footer>
@@ -44,7 +44,7 @@ export default {
     icons: [
       ['fab fa-github', 'https://github.com/takusuke1093'],
       ['fab fa-google', 'https://mail.google.com/mail/?view=cm&to=takumi.yoshida.seattle@gmail.com'],
-      ['fab fa-linkedin', 'https://github.com/takusuke1093'],
+      ['fab fa-linkedin', 'https://www.linkedin.com/in/takumi-yoshida/'],
       ['far fa-paper-plane', 'https://mail.google.com/mail/?view=cm&to=takumi.yoshida.seattle@gmail.com']
     ]
   })
@@ -52,5 +52,8 @@ export default {
 </script>
 
 <style>
+a{
+  color: white;
+}
 
 </style>
