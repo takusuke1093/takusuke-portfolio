@@ -21,7 +21,7 @@
                     tag="h1"
                   >
                     <span
-                      :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
+                      :class="[$vuetify.breakpoint.smAndDown ? 'display-1': 'display-3']"
                       class="font-weight-black"
                     >
                       @takusuke1093
